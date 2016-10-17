@@ -115,7 +115,7 @@ namespace WebFiler.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to attachment; filename={0}.
+        ///   Looks up a localized string similar to attachment; filename=&quot;{0}&quot;.
         /// </summary>
         internal static string ContentDispositionAttachment {
             get {

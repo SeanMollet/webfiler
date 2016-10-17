@@ -168,7 +168,7 @@ namespace WebFiler
 		void RootRow()
 		{
 			// The root from the config.
-			string primary = HttpContext.Current.Server.MapPath(WebConfigurationManager.AppSettings.Get(Strings.Root));
+            string primary = Configuration._root;
 
 			// If it doesn't match where we are now then create a new row.
 			if (primary != _root)

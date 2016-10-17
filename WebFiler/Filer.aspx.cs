@@ -57,7 +57,7 @@ namespace WebFiler
 				// If it's not there use the default.
 				if (string.IsNullOrEmpty(root))
 				{
-					root = Server.MapPath(WebConfigurationManager.AppSettings.Get(Strings.Root));
+                    root = Configuration._root;
 				}
 
 				return root;

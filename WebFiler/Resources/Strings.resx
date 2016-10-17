@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actions" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Collapse" xml:space="preserve">
+    <value>collapse</value>
+  </data>
+  <data name="BorderCollapse" xml:space="preserve">
+    <value>border-collapse</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="DeleteMessage" xml:space="preserve">
+    <value>Are you sure that you want to delete {0}?</value>
+  </data>
+  <data name="DeleteUrl" xml:space="preserve">
+    <value>Filer.aspx?r={0}</value>
+  </data>
+  <data name="FFS0" xml:space="preserve">
+    <value>0 bytes</value>
+  </data>
+  <data name="FFSB" xml:space="preserve">
+    <value>{0:##.##} bytes</value>
+  </data>
+  <data name="FFSGB" xml:space="preserve">
+    <value>{0:##.##} gb</value>
+  </data>
+  <data name="FFSKB" xml:space="preserve">
+    <value>{0:##.##} kb</value>
+  </data>
+  <data name="FFSMB" xml:space="preserve">
+    <value>{0:##.##} mb</value>
+  </data>
+  <data name="FileIsReadOnly" xml:space="preserve">
+    <value>File is read only</value>
+  </data>
+  <data name="FileOpen" xml:space="preserve">
+    <value>Filer.aspx?x=x&amp;o={0}</value>
+  </data>
+  <data name="FivePX" xml:space="preserve">
+    <value>5px</value>
+  </data>
+  <data name="Folder" xml:space="preserve">
+    <value>folder</value>
+  </data>
+  <data name="FolderUpText" xml:space="preserve">
+    <value>..</value>
+  </data>
+  <data name="IsReadOnly" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="JSConfirm" xml:space="preserve">
+    <value>javascript:if(confirm('{0}') == false) return false;</value>
+  </data>
+  <data name="Modified" xml:space="preserve">
+    <value>Last Modified</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="OnClick" xml:space="preserve">
+    <value>onclick</value>
+  </data>
+  <data name="PaddingRight" xml:space="preserve">
+    <value>padding-right</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Rename</value>
+  </data>
+  <data name="RenameUrl" xml:space="preserve">
+    <value>Filer.aspx?r={0}&amp;f={1}&amp;m=1</value>
+  </data>
+  <data name="RO" xml:space="preserve">
+    <value>RO</value>
+  </data>
+  <data name="Root" xml:space="preserve">
+    <value>WFRoot</value>
+  </data>
+  <data name="RootNavigate" xml:space="preserve">
+    <value>{0}?r={1}</value>
+  </data>
+  <data name="Size" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="ThreePX" xml:space="preserve">
+    <value>3px</value>
+  </data>
+  <data name="CantCreateTable" xml:space="preserve">
+    <value>Unable to create the table.</value>
+  </data>
+  <data name="ContentDisposition" xml:space="preserve">
+    <value>Content-Disposition</value>
+  </data>
+  <data name="ContentDispositionAttachment" xml:space="preserve">
+    <value>attachment; filename={0}</value>
+  </data>
+  <data name="ContentType" xml:space="preserve">
+    <value>application/octet-stream</value>
+  </data>
+  <data name="FolderNotFound" xml:space="preserve">
+    <value>Unable to find '{0}'&lt;br/&gt;Please Refresh or alter the 'Root' value in 'Web.config'.</value>
+  </data>
+  <data name="QSM" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="QSO" xml:space="preserve">
+    <value>o</value>
+  </data>
+  <data name="QSR" xml:space="preserve">
+    <value>r</value>
+  </data>
+  <data name="QSX" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="RRHome" xml:space="preserve">
+    <value>Filer.aspx</value>
+  </data>
+  <data name="RRNewFile" xml:space="preserve">
+    <value>Filer.aspx?r={0}&amp;f=&amp;m=2</value>
+  </data>
+  <data name="RRNewFolder" xml:space="preserve">
+    <value>Filer.aspx?r={0}&amp;f=&amp;m=3</value>
+  </data>
+  <data name="RRUpload" xml:space="preserve">
+    <value>Filer.aspx?r={0}&amp;f=&amp;m=4</value>
+  </data>
+  <data name="NewObjectPath" xml:space="preserve">
+    <value>{0}\{1}</value>
+  </data>
+  <data name="QSF" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="RenameLabel" xml:space="preserve">
+    <value>Rename {0}</value>
+  </data>
+  <data name="RRRefresh" xml:space="preserve">
+    <value>Filer.aspx?r={0}</value>
+  </data>
+  <data name="STYLE_LINK" xml:space="preserve">
+    <value>&lt;link rel="stylesheet" text="text/css" href="{0}" /&gt;</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>WebFiler</value>
+  </data>
+  <data name="Accessed" xml:space="preserve">
+    <value>Last Accessed</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>unknown</value>
+  </data>
+  <data name="Period" xml:space="preserve">
+    <value>.</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="PNG_DELETE" xml:space="preserve">
+    <value>WebFiler.Images.delete.png</value>
+  </data>
+  <data name="PNG_FILE" xml:space="preserve">
+    <value>WebFiler.Images.file.png</value>
+  </data>
+  <data name="PNG_FOLDER" xml:space="preserve">
+    <value>WebFiler.Images.folder.png</value>
+  </data>
+  <data name="PNG_FOLDER_UP" xml:space="preserve">
+    <value>WebFiler.Images.folder_up.png</value>
+  </data>
+  <data name="PNG_RENAME" xml:space="preserve">
+    <value>WebFiler.Images.rename.png</value>
+  </data>
+  <data name="STYLES" xml:space="preserve">
+    <value>WebFiler.CSS.Default.css</value>
+  </data>
+  <data name="Copyright" xml:space="preserve">
+    <value>&lt;div id="copyright"&gt;&lt;label id="title"&gt;WebFiler&lt;/label&gt; Copyright &amp;copy; 2010, &lt;a href="http://www.merrens.com/" target="_blank"&gt;MWM&lt;/a&gt;. All Rights Reserved. Version {0}&lt;/div&gt;</value>
+  </data>
+  <data name="Copyright_CSS" xml:space="preserve">
+    <value>copyright</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>WFReturn</value>
+  </data>
+</root>

@@ -1,0 +1,13 @@
+﻿html, body { font-family: Tahoma, Helvetica, 'MS Sans Serif'; font-size: 12px; margin: 3px; padding: 0px; }
+a { color: #191970; text-decoration: none; }
+a:hover { text-decoration: underline; }
+table { border: 1px solid #909070; }
+thead { background: #eee; }
+div#buttons { margin-bottom: 3px; }
+div#copyright { color: #909070; font-size: 9px; }
+div#copyright a { color: #909070; }
+div#copyright #title { color: #800000; }
+.header { border-bottom: 1px solid #909070; font-size: 15px; }
+.buttonSml { background-color: #e0dfe3; border: solid 1px #000; cursor: pointer; font-family: Tahoma, "MS Sans Serif"; font-size: 10px; }
+.button { background-color: #e0dfe3; border: solid 1px #000; cursor: pointer; font-family: Tahoma, "MS Sans Serif"; width: 75px; }
+.title { display: block; font-size: 14px; padding-bottom: 3px; }

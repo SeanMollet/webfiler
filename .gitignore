@@ -1,0 +1,5 @@
+WebFiler/bin
+WebFiler/obj
+*.suo
+WebFiler/Properties/PublishProfiles/*
+*.user

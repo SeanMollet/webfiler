@@ -253,7 +253,7 @@ namespace WebFiler
 				// New row for each row found.
 				row = new TableRow();
 
-                if (fi.Attributes== FileAttributes.Directory)
+                if ((fi.Attributes & FileAttributes.Directory )== FileAttributes.Directory)
 				{
 					// New cells for each item found.
 					cell = new TableCell();
